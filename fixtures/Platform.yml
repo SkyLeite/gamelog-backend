@@ -1,0 +1,18 @@
+entity: Platform
+items:
+  platform1:
+    name: PC
+    art: '{{internet.avatar}}'
+    description: '{{lorem.paragraph}}'
+  platform2:
+    name: Xbox 360
+    art: '{{internet.avatar}}'
+    description: '{{lorem.paragraph}}'
+  platform3:
+    name: Playstation 3
+    art: '{{internet.avatar}}'
+    description: '{{lorem.paragraph}}'
+  platform4:
+    name: Nintendo Switch
+    art: '{{internet.avatar}}'
+    description: '{{lorem.paragraph}}'

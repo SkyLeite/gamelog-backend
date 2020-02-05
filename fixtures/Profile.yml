@@ -1,0 +1,8 @@
+entity: Profile
+items:
+  profile{1..50}:
+    displayName: '{{name.firstName}} {{name.lastName}}'
+    age: '{{random.number}}'
+    location: '{{address.state}}, {{address.country}}'
+    about: '{{lorem.paragraph}}'
+    avatar: '{{internet.avatar}}'

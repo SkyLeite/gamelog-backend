@@ -1,0 +1,14 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "root",
+    "database": "gamelog",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true,
+    "migrations": ["src/migrations/*.ts"],
+    "seeds": ["src/database/seeds/**/*.seed.ts"],
+    "factories": ["src/database/factories/**/*.factory.ts"],
+    "logging": true
+}

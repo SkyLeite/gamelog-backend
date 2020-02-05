@@ -1,0 +1,7 @@
+entity: Game
+items:
+  game{1..50}:
+    name: '{{lorem.word}}'
+    description: '{{lorem.paragraph}}'
+    art: '{{internet.avatar}}'
+    platform: '@platform*'

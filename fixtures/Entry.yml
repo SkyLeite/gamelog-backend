@@ -1,0 +1,10 @@
+entity: Entry
+items:
+  entry{1..250}:
+    user: '@user*'
+    game: '@game*'
+    rating: '{{random.number}}'
+    minutesPlayed: '{{random.number}}'
+    endDate: '{{date.past}}'
+    entryStatus: 'playing'
+    notes: '{{lorem.paragraph}}'
